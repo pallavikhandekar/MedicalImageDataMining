@@ -17,7 +17,7 @@ public class ImportWekaToJava {
 	{
 	try {
 		BufferedReader reader = new BufferedReader(
-		        new FileReader("path to input.arff");
+		        new FileReader("path to input.arff"));
 		try {
 			//Read arff file and create instance.
 			Instances data = new Instances(reader);
